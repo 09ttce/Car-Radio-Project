@@ -30,7 +30,6 @@ IMAGE_INSTALL += "\
     matchbox-terminal \
     xterm \
     readtemperature \
-    chromium-x11 \
     matchbox-terminal \
     alsa-utils \
     packagegroup-base-bluetooth \
@@ -39,6 +38,7 @@ IMAGE_INSTALL += "\
     iw \
     rfkill \
     networkmanager \
+    chromium-x11 \
 "
 
 IMAGE_OVERHEAD_FACTOR ?= "1.0"
